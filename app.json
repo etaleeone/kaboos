@@ -1,7 +1,7 @@
 {
-    "name": "Marlen Music",
+    "name": "ETALEE",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
-    "logo": "https://telegra.ph/file/40d9f2f0493df871b27db.jpg",
+    "logo": "https://telegra.ph/file/b974b7f411766b46b7712.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -13,12 +13,12 @@
     ],
     "stack": "container",
     "env": {
-      "ايبي_ايدي": {
+      "API_ID": {
         "description": "Get this value from https://my.telegram.org",
         "value": "",
         "required": true
       },
-      "ايبي_هاش": {
+      "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
         "value": "",
         "required": true
@@ -28,7 +28,7 @@
         "value": "True",
         "required": false
       },
-      "توكن_البوت": {
+      "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
         "value": "",
         "required": true
@@ -38,12 +38,12 @@
         "value": "",
         "required": true
       },
-      "اسم_بوت_الاغاني": {
+      "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. Please don't use ascii characters",
         "value": "",
         "required": true
       },
-      "ايدي_المطور": { 
+      "OWNER_ID": { 
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
         "value": "",
         "required": true
@@ -53,22 +53,22 @@
         "value": "",
         "required": true
       },
-      "كود_الجلسة": {
+      "STRING_SESSION": {
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
         "value": "",
         "required": true
       },
-      "ايبي_اي_الهروكو": {
+      "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
         "value": "",
         "required": false
       },
-      "الاسم_الاول_لتطبيق_الهركو": {
+      "HEROKU_APP_NAME": {
         "description": "Your heroku app/bot's name",
         "value": "",
         "required": false
       },
-      "ايدي_جروب_البوت_والمساعد": {
+      "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
         "value": "",
         "required": true
